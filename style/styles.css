@@ -1,0 +1,62 @@
+/* styles/styles.css */
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center align text */
+}
+
+/* Heading styling */
+h1 {
+  color: #2c3e50; /* Dark blue-gray color */
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+form {
+  max-width: 500px; /* Restrict form width */
+  margin: 20px auto; /* Center align form */
+  padding: 20px;
+  background-color: #fff; /* White background for form */
+  border-radius: 5px; /* Slightly rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Form elements styling */
+label {
+  display: block; /* Ensure labels are on their own lines */
+  margin: 10px 0 5px; /* Vertical spacing */
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 100%; /* Full width */
+  padding: 10px;
+  margin: 5px 0 10px; /* Vertical margins for spacing */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+}
+
+/* Submit button styling */
+input[type="submit"],
+button {
+  background-color: #3498db; /* Blue background */
+  color: white; /* White text color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth color transition */
+  margin: 10px; /* Margin around buttons */
+}
+
+input[type="submit"]:hover,
+button:hover {
+  background-color: #2980b9; /* Darker blue on hover */
+}
